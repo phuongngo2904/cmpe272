@@ -124,21 +124,18 @@
                 <p style="color:#00bbbb;"> Hoi An, VietNam</p>
                 <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
                 <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
-                <p class="fa fa-money" style="color:#00bbbb;">$20,000</p>
+                <p >$20,000</p>
                 <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer"><i class="fa fa-fw fa-phone-square icon" style="color:#00bbbb;"></i> Book</a>
             </div>
         </div>
-        <div id="main_contact" style="display:none; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+        <div id="main_contact" style="display:none; flex-direction: column; flex-wrap: wrap; justify-content: space-between;">
+            <p style="color:#00bbbb;font-family: Lucida Console, Courier New, monospace;">Reach us at: </p>
             <?php
                 $json_data = file_get_contents('contact.json');
-            
-                // Decode JSON data into PHP array
                 $data = json_decode($json_data, true);
-            
-                // Check if decoding was successful
                 if ($data !== null) {
                     foreach ($data as $key => $value) {
-                        echo "<p><strong>$key:</strong> $value</>";
+                        echo "<p style=\"color:#00bbbb\"><strong>$key:</strong> $value</p>";
                     }
                 } else {
                     echo "Error decoding JSON data";
