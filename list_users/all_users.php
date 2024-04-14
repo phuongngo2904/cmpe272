@@ -70,7 +70,7 @@
                 if (is_array($data)) {
                     foreach ($data as $user) {
                         echo '<div class="user">';
-                        echo '<div class="user-icon"><i class="fas fa-user"></i></div>';
+                        echo '<div class="user-icon"><i class="fas fa fa-user-secret"></i></div>';
                         echo '<div class="user-info">';
                         if (isset($user['first_name']) && isset($user['last_name'])) {
                             echo $user['first_name'] . ' ' . $user['last_name'];
@@ -90,9 +90,10 @@
             curl_close($curl);
         }
         $requests = [
-            'Phuong Ngo' => 'https://cmpe272.phuongngo.net/list_users/users.php',
-            'Phuc Le' => 'https://phucle.website/api/userEP.php',
-            'Phuoc Le' => 'https://phuocle.website/curl/users.php'
+            'Phuong Ngo Company' => 'https://cmpe272.phuongngo.net/list_users/users.php',
+            'Phuc Le Company' => 'https://phucle.website/api/userEP.php',
+            'Phuoc Le Company' => 'https://phuocle.website/curl/users.php',
+            'Vinh Tran Company' => 'https://phuocle.website/curl/users.php'
         ];
 
         foreach ($requests as $name => $url) {
