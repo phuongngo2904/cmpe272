@@ -93,7 +93,7 @@
             'Phuong Ngo Company' => 'https://cmpe272.phuongngo.net/list_users/users.php',
             'Phuc Le Company' => 'https://phucle.website/api/userEP.php',
             'Phuoc Le Company' => 'https://phuocle.website/curl/users.php',
-            'Vinh Tran Company' => 'https://phuocle.website/curl/users.php'
+            'Vinh Tran Company' => 'https://vinhtran00.com/users.php'
         ];
 
         foreach ($requests as $name => $url) {
