@@ -10,7 +10,7 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "SELECT first_name, last_name FROM users";
+    $sql = "SELECT first_name, last_name FROM user_table";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         $users = array();
