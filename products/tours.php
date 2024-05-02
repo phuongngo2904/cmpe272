@@ -25,14 +25,14 @@
             <!-- <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a> -->
         </div>
         <div class="main">
-            <div id="main_tours" style="display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+            <div id="main_tours" style="display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;gap:20px;">
                 <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
                     <img src="../main_dashboard/hawaii.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
                     <p style="color:#00bbbb;"> Hawaii</p>
                     <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
                     <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
                     <p class="fa fa-money" style="color:#00bbbb;">$14,500</p>
-                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./hoian.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
+                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./hawaii.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
                 </div>
                 <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
                     <img src="../main_dashboard/puertorico.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
@@ -40,7 +40,7 @@
                     <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
                     <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
                     <p class="fa fa-money" style="color:#00bbbb;">$10,000</p>
-                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./hoian.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
+                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./puertorico.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
                 </div>
                 <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
                     <img src="../main_dashboard/hoian.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
@@ -49,6 +49,30 @@
                     <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
                     <p class="fa fa-money" style="color:#00bbbb;">$20,000</p>
                     <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./hoian.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
+                </div>
+                <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
+                    <img src="../main_dashboard/maldives.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
+                    <p style="color:#00bbbb;"> Maldives</p>
+                    <p class="fa fa-calendar" style="color:#00bbbb;"> 7 days 6 nights</p>
+                    <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
+                    <p class="fa fa-money" style="color:#00bbbb;">$7,500</p>
+                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./maldives.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
+                </div>
+                <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
+                    <img src="../main_dashboard/sondoong.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
+                    <p style="color:#00bbbb;"> Son Doong Cave, VietNam</p>
+                    <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
+                    <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
+                    <p class="fa fa-money" style="color:#00bbbb;">$14,500</p>
+                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./sondoong.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
+                </div>
+                <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
+                    <img src="../main_dashboard/cancun.jpeg" alt="Your Logo" style="width: 100%;height:100%"/>
+                    <p style="color:#00bbbb;"> Cancun</p>
+                    <p class="fa fa-calendar" style="color:#00bbbb;"> 4 days 3 nights</p>
+                    <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
+                    <p class="fa fa-money" style="color:#00bbbb;"> $4,500</p>
+                    <a style="color:#00bbbb;border: 2px solid #00bbbb;border-radius:4px; width:20%; cursor:pointer" href="./cancun.php"><i class="fa fa-fw fa-eye" style="color:#00bbbb;"></i> View</a>
                 </div>
             </div>
         </div>

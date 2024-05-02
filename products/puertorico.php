@@ -28,16 +28,16 @@
         <a href="../products/tours.php">Back to tours</a><br><br><br>
         <div id="main_tours" style="display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
             <div style="display:flex; flex-direction: column; align-items: center; border: 2px solid black;width:30%; height:30%; border-radius:10px;">
-                <img src="../main_dashboard/hoian.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
-                <p style="color:#00bbbb;"> Hoi An, VietNam</p>
-                <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
-                <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
-                <p >$20,000</p>
+            <img src="../main_dashboard/puertorico.jpeg" alt="Your Logo" style="width: 100%;height:26vh"/>
+                    <p style="color:#00bbbb;"> Puerto Rico</p>
+                    <p class="fa fa-calendar" style="color:#00bbbb;"> 10 days 9 nights</p>
+                    <p class="fa fa-map-marker" style="color:#00bbbb;"> Depart at: San Francisco Airport</p>
+                    <p class="fa fa-money" style="color:#00bbbb;">$10,000</p>
             </div>
         </div>
         <div>
             <form method="POST" action="submit_rating.php">
-                <input type="hidden" name="tourName" value="Hoi An, VietNam">
+                <input type="hidden" name="tourName" value="Puerto Rico">
                 <label for="rating">Rate this tour:</label>
                 <select id="rating" name="rating">
                     <option value="1">1 star</option>
@@ -55,7 +55,7 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-        <?php $tour_name = "Hoi An, VietNam"; include 'rating.php'; ?>
+        <?php $tour_name = "Puerto Rico"; include 'rating.php'; ?>
     </div>
     
 </body>

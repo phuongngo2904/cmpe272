@@ -2,7 +2,12 @@
 
 function getTourPage($tourName) {
     $tourMap = array(
-        "Hoi An, VietNam" => "hoian.php"
+        "Hoi An, VietNam" => "hoian.php",
+        "Puerto Rico" => "puertorico.php",
+        "Hawaii" => "hawaii.php",
+        "Maldives" => "maldives.php",
+        "Son Doong, VietNam" =>"sondoong.php",
+        "Cancun" => "cancun.php"
     );
     return isset($tourMap[$tourName]) ? $tourMap[$tourName] : "";
 }
@@ -23,12 +28,17 @@ function submitRating($tourName, $rating, $comment) {
         );
     }
 
-    file_put_contents('./tours_rating.json', json_encode($ratings));
+    $jsonData = json_encode($ratings);
+    if ($jsonData === false) {
+        echo "Error encoding JSON: " . json_last_error_msg();
+    } else {
+        file_put_contents('./tours_rating.json', $jsonData);
+    }
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tourName = $_POST["tourName"];
-    $rating = $_POST["rating"];
+    $rating = intval($_POST["rating"]);
     $comment = $_POST["comment"];
     submitRating($tourName, $rating, $comment);
 
