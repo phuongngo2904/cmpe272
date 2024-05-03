@@ -1,10 +1,5 @@
-<!-- <?php
-    // session_start();
-    // if(!isset($_SESSION["isLoggedIn"]) || !$_SESSION["isLoggedIn"]){
-    //     header("location: ../login.php");
-    //     return;
-    // }
-?> -->
+<?php include '../login/user_login.php'?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,8 +16,8 @@
         <a id="sidebar_home" class="tab_selected"><i class="fa fa-fw fa-home icon"></i> Home</a>
         <a id="sidebar_tours" href="../products/tours.php"><i class="fa fa-fw fa-user icon"></i> Tours</a>
         <a id="sidebar_contact" href="../contacts/contact.php"><i class="fa fa-fw fa-phone-square icon"></i> Contact</a>
-        <a id="sidebar_users"><i class="fa fa-fw fa fa-group icon"></i> Users</a>
-        <!-- <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a> -->
+        <a id="sidebar_users" href="../users/cur_users.php"><i class="fa fa-fw fa fa-group icon"></i> Users</a>
+        <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a>
     </div>
     <div class="main">
         <div id="main_home" style="display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">

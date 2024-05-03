@@ -22,7 +22,7 @@
             <a id="sidebar_tours" href="../products/tours.php"><i class="fa fa-fw fa-user icon"></i> Tours</a>
             <a id="sidebar_contact" href="../contacts/contact.php"><i class="fa fa-fw fa-phone-square icon"></i> Contact</a>
             <a id="sidebar_users" class="tab_selected"><i class="fa fa-fw fa fa-group icon"></i> Users</a>
-            <!-- <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a> -->
+            <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a>
         </div>
         <div class="main">
             <div id="main_users" style="display:block; flex-direction: column; flex-wrap: wrap; justify-content: space-between;">
