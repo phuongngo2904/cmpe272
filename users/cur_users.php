@@ -12,11 +12,14 @@
             <img src="../main_dashboard/travel_logo.jpeg" alt="Your Logo" style="width: 95%;height:15%"/>
             <span style="color:#0c1e35">YOLO Travel</span>
         </div>
+        <p style="color:#1abc9c; margin-left:10px">Hi, <?php echo $_SESSION["username"]; ?></p>
         <a id="sidebar_home" href="../main_dashboard/main.php"><i class="fa fa-fw fa-home icon"></i> Home</a>
         <a id="sidebar_tours" href="../products/tours.php"><i class="fa fa-fw fa-user icon"></i> Tours</a>
+        <a id="sidebar_tours" href="../top5tours/top5tours.php"><i class="fa fa-fw fa fa-star"></i>Top 5 tours</a>
         <a id="sidebar_contact" href="../contacts/contact.php"><i class="fa fa-fw fa-phone-square icon"></i> Contact</a>
         <a id="sidebar_users" class="tab_selected"><i class="fa fa-fw fa fa-group icon"></i> Users</a>
         <a href="../logout/logout.php" id="sidebar_logout"><i class="fa fa-fw fa fa-sign-out"></i> Log Out</a>
+        <a href="https://phuocle.website/main" style="margin-top:200px"><i class="fa fa-fw fa fa-mail-reply"></i> Back To MainPage</a>
     </div>
     <div class="main">
         <div id="main_users" style="display:block; flex-direction: column; flex-wrap: wrap; justify-content: space-between;">
